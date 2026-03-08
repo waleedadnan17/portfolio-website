@@ -7,31 +7,31 @@ const timelineData = [
         type: "experience",
         role: "Data Analytics & ML Intern",
         entity: "Telenor",
-        date: "June 2023 - August 2023",
+        date: "June 2023 - Aug 2023",
         description: [
-            "Data engineering: Authored and optimised SQL scripts to extract, cleanse, and aggregate multi-gigabyte call detail and KPI tables, producing feature-ready datasets for machine learning workflows.",
-            "Churn modelling: Built logistic regression and gradient boosting models in Python (pandas, scikit-learn); evaluated results with ROC-AUC and recall.",
-            "Model serving microservice: Containerised the churn model with Docker and exposed a RESTful scoring endpoint using FastAPI, enabling real-time integration with marketing and customer care systems.",
-            "Automated feature pipeline: Wrote Python jobs to replace manual spreadsheet processing and improving reproducibility."
+            "Engineered SQL pipelines to extract, cleanse, and aggregate 8M+ call-detail records.",
+            "Developed logistic regression and gradient boosting churn models achieving ROC-AUC of 0.84.",
+            "Containerised churn model with Docker and built a FastAPI scoring endpoint.",
+            "Automated weekly feature engineering pipeline in Python cutting processing time from ~4 hours to under 10 minutes."
         ]
     },
     {
         type: "education",
-        role: "MSc Applied Computer Science",
+        role: "MSc of Applied Computer Science",
         entity: "Vrije Universiteit Brussel (VUB)",
-        date: "2024 - 2026",
+        date: "Sep 2024 - July 2026",
         description: [
-            "VUB Master Scholarship 2025–26",
-            "Awarded to the highest ranked non-EEA student in the program."
+            "VUB Master Scholarship 2025–26 (Top-ranked non-EEA scholarship).",
+            "Relevant Coursework: Machine Learning, Deep Learning, NLP, Data Engineering."
         ]
     },
     {
         type: "education",
         role: "B.S. Computer Science",
         entity: "National University of Computer and Emerging Sciences",
-        date: "2020 - 2024",
+        date: "Sep 2020 - July 2024",
         description: [
-            "Honours Standing"
+            "Honours Standing (Top 5% of graduating class)."
         ]
     }
 ];

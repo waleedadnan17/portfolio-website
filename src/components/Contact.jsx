@@ -87,7 +87,7 @@ export default function Contact() {
                                         name="email"
                                         required
                                         className="bg-zinc-900/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
-                                        placeholder="john@example.com"
+                                        placeholder="email@example.com"
                                     />
                                 </div>
                             </div>

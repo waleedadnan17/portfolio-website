@@ -44,7 +44,7 @@ export default function Hero() {
                     I'm a{' '}
                     <span className="text-zinc-100">
                         <Typewriter
-                            words={['AI Engineer.', 'CS Student.', 'Data Scientist.', 'Problem Solver.']}
+                            words={['AI Engineer.', 'CS Master\'s Student.', 'Machine Learning Developer.', 'Problem Solver.']}
                             loop={true}
                             cursor
                             cursorStyle="_"
@@ -61,7 +61,7 @@ export default function Hero() {
                     transition={{ duration: 0.5, delay: 0.3 }}
                     className="text-lg text-zinc-400 max-w-2xl mb-12 leading-relaxed"
                 >
-                    Passionate about building production ML systems, deploying LLM applications, and exploring the frontiers of Artificial Intelligence.
+                    MSc CS candidate at VUB building Generative AI applications, RAG pipelines, and researching explainable AI for deep learning.
                 </motion.p>
 
                 <motion.div

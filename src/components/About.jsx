@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const techStack = [
-    "Python", "PyTorch", "FastAPI", "Docker", "LangChain",
-    "OpenAI", "React", "SQL", "Git", "AWS"
+    "Python", "LangChain", "PyTorch", "Hugging Face", "LLMs & RAG",
+    "Docker", "AWS", "SQL", "FastAPI", "React", "TypeScript", "Node.js"
 ];
 
 export default function About() {
@@ -26,13 +26,13 @@ export default function About() {
 
                         <div className="text-zinc-400 space-y-4 text-base md:text-lg leading-relaxed">
                             <p>
-                                I'm an Aspiring AI Engineer with hands-on experience building and deploying production ML systems and LLM applications. I love bridging the gap between models and real-world deployment.
+                                I'm currently pursuing an MSc in Applied Computer Science at Vrije Universiteit Brussel (VUB) on a top-ranked scholarship. My focus is on Artificial Intelligence, specifically Generative AI, RAG systems, and medical Explainable AI (XAI).
                             </p>
                             <p>
-                                I am currently pursuing my MSc in Computer Science at Vrije Universiteit Brussel (VUB), where I was awarded the highest-ranked non-EEA scholarship. My expertise includes the GenAI stack, RAG pipelines, and model-serving microservices.
+                                Recently, I built production-grade data pipelines and containerised ML churn models at Telenor. I've also engineered complete RAG-powered chatbot solutions using LangChain, OpenAI, and FAISS.
                             </p>
                             <p>
-                                When I'm not coding or training models, I'm actively researching Explainable AI for regression models to make deep learning more transparent in healthcare and beyond.
+                                I am actively targeting AI Engineer and Machine Learning roles across the EU where I can deploy robust, intelligent systems from end to end.
                             </p>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ export default function About() {
                         <div className="glass-card p-6 border-l-4 border-l-accent">
                             <h3 className="text-xl font-semibold mb-2 text-white">Current Status</h3>
                             <p className="text-zinc-400">
-                                MSc Computer Science Student at <span className="text-zinc-200 font-medium my-1">Vrije Universiteit Brussel</span>. <br />
-                                Expected Graduation: <span className="text-accent font-medium mt-1 inline-block">2026</span>
+                                MSc Computer Science at <span className="text-zinc-200 font-medium my-1">Vrije Universiteit Brussel (VUB)</span>. <br />
+                                Expected Graduation: <span className="text-accent font-medium mt-1 inline-block">July 2026</span>
                             </p>
                         </div>
 

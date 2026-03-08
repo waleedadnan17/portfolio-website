@@ -5,35 +5,35 @@ import { Github, ExternalLink, Star } from 'lucide-react';
 const projects = [
     {
         title: "Explainable AI for Brain Age Prediction",
-        description: "Master Thesis applying and comparing Guided Backpropagation and SHAP to brain age regression models trained on T1-weighted MRI.",
-        tags: ["Python", "Deep Learning", "XAI"],
+        description: "Master Thesis evaluating XAI faithfulness in regression-based deep learning. Applied Guided Backpropagation and SHAP to T1-weighted MRI to benchmark neuroimaging transparency.",
+        tags: ["Python", "PyTorch", "Deep Learning", "SHAP", "XAI"],
         githubUrl: "#",
         liveUrl: "https://www.medrxiv.org/content/10.1101/2023.04.22.23288741v2",
         featured: true,
     },
     {
         title: "RAG-Powered Document Q&A Chatbot",
-        description: "A production-level RAG chatbot that lets users upload PDFs and ask questions grounded in retrieved document chunks. Features offline embedding fallback, conversation memory, and an evaluation pipeline.",
+        description: "Engineered an end-to-end RAG pipeline achieving 85% retrieval hit rate. Built an explainability-first Streamlit interface surfacing source chunks, similarity scores, and metadata alongside LangChain memory.",
         tags: ["Python", "Streamlit", "LangChain", "OpenAI", "FAISS"],
         githubUrl: "https://github.com/waleedadnan17/RAG-document-QA-chatbot",
         liveUrl: "#",
         featured: true,
     },
     {
-        title: "InspectUX — Automated UI/UX Usability Evaluation Tool",
+        title: "InspectUX — Automated UI/UX Evaluation Tool",
         description: "Chrome extension using ML to evaluate website usability against Nielsen's 10 Heuristics and WCAG 2.0 guidelines.",
         tags: ["Python", "Flask", "Selenium", "ML", "Chrome Extension"],
         githubUrl: "#",
         liveUrl: "https://drive.google.com/file/d/1EvAfWaiWTAUxcQIP10zlIdXFiqDLOjRK/view",
-        featured: true,
+        featured: false,
     },
     {
         title: "Intrusion Detection with Deep Learning",
         description: "Benchmarked 5 neural network architectures on UNSW-NB15 dataset (257K records) for network intrusion detection. Achieved 89.7% accuracy with ANN for binary classification.",
-        tags: ["Python", "TensorFlow", "Keras", "Scikit-Learn", "Deep Learning"],
+        tags: ["Python", "TensorFlow", "Keras", "Scikit", "Deep Learning"],
         githubUrl: "#",
         liveUrl: "https://drive.google.com/file/d/1XSizWoYI3mePxQiJseddGQPlukPPlzuQ/view",
-        featured: true,
+        featured: false,
     }
 ];
 

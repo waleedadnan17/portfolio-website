@@ -4,24 +4,24 @@ import { Code2, Database, Layout, Terminal } from 'lucide-react';
 
 const skillCategories = [
     {
-        title: "GenAI & LLM-Ops",
+        title: "GenAI & LLM Engineering",
         icon: <Code2 size={24} className="text-accent" />,
-        skills: ["LangChain", "LangGraph", "LlamaIndex", "Hugging Face", "Azure OpenAI", "Ollama", "RAG"]
+        skills: ["LangChain", "LangGraph", "LlamaIndex", "Hugging Face", "RAG", "FAISS", "Sentence-Transformers", "Prompt Engineering"]
     },
     {
         title: "ML & Deep Learning",
-        icon: <Layout size={24} className="text-accent" />,
-        skills: ["PyTorch", "TensorFlow/Keras", "scikit-learn", "OpenCV", "Pandas", "NumPy"]
-    },
-    {
-        title: "Languages & Web",
         icon: <Database size={24} className="text-accent" />,
-        skills: ["Python", "Java", "C++", "FastAPI", "React", "Postman"]
+        skills: ["PyTorch", "TensorFlow", "scikit-learn", "SHAP", "Explainable AI (XAI)", "OpenCV"]
     },
     {
-        title: "Deployment & Data",
+        title: "MLOps & Cloud",
+        icon: <Layout size={24} className="text-accent" />,
+        skills: ["Docker", "FastAPI", "GitHub Actions", "CI/CD", "AWS (S3, EC2)"]
+    },
+    {
+        title: "Languages & Tools",
         icon: <Terminal size={24} className="text-accent" />,
-        skills: ["Docker", "Kubernetes", "AWS", "GitHub Actions", "CI/CD", "SQL", "NoSQL"]
+        skills: ["Python", "SQL", "NoSQL", "Pandas", "NumPy", "Git"]
     }
 ];
 

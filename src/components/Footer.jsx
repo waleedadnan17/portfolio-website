@@ -22,7 +22,7 @@ export default function Footer() {
                         </span>
                     </Link>
                     <p className="text-sm text-zinc-400 text-center md:text-left leading-relaxed">
-                        Building digital experiences with modern web technologies. Open for software engineering internships and junior roles.
+                        Building robust AI pipelines and applications. Looking for Data/ML Engineering and AI roles.
                     </p>
                 </div>
 
